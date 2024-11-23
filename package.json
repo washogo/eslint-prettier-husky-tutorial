@@ -7,7 +7,7 @@
     "lint": "eslint app.js",
     "fix": "eslint --fix app.js",
     "format": "prettier --write app.js",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.js": [
